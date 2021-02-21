@@ -1,21 +1,20 @@
-# sapper-blog-template
+# einfachIOTA Website
 
-A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
+> Code and Blog for out Website
 
-### 👉 [Demo](https://sapper-blog-template.netlify.com/)
+### 👉 [Website](https://www.einfachiota.de/)
 
 ## ✨ Getting started
 
 ```bash
-npx degit Charca/sapper-blog-template my-blog
-cd my-blog
+git clone https://github.com/einfachiota/einfachiota.de
+cd einfachiota.de
 npm install # or yarn!
 npm run dev
 ```
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
 ## 🏗 Structure
 
@@ -39,9 +38,8 @@ This is where your markdown posts live in. All `.md` files in this directory are
 
 ## 🚀 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Charca/sapper-blog-template)
-
+Just publish to the main branch and the pipeline deploys automaticly.
 
 ## 🐛 Bugs and feedback
 
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [issue tracker](https://github.com/einfachiota/einfachiota.de/issues).
