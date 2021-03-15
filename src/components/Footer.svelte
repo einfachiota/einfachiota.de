@@ -9,30 +9,59 @@
 </script>
 
 <section class="footer" id="footer">
- <div class="container">
- <div class="row section-body">
- <div class="col-md-4 footer-box">
- <div class="company_brand">{header}</div>
- <p>{DESCRIPTION}</p>
- </div>
- <div class="col-md-4 footer-box">
- <p class="footer-title">{HEADING}</p>
- <p>
- {ADDRESS}
- </p>
- <p>
- {EMAIL}
- </p>
- </div>
- <p>{IMPRESSUM}</p>
- </div>
- </div>
+<layout>
+<div class="section">
+<div class="footer-title">Social</div>
+<br/>
+<a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
+<br/>
+<a href="https://twitter.com/einfachiota" target="_blank" class="link">Discord</a>
+</div>
+<div class="section">
+<div class="footer-title">Über uns</div>
+<br/>
+<a href="https://einfachiota.de/impressum" class="link">Impressum</a>
+</div>
+</layout>
+<br/>
+<br/>
+      <center>einfachIOTA - IOTA einfach erklärt.</center>
+
 </section>
 
 <style>
 
+layout {
+    display: flex;
+    flex-direction: row;
+}
+.section {
+    padding-left: 25vw;
+    margin-top: 45px;
+}
+.link {
+    cursor: pointer;
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.link:hover {
+    color: white;
+}
+
  .footer-title {
  font-weight: bold;
  text-transform: uppercase;
+ font-size: 1.5rem;
+ }
+
+ @media (max-width: 800px) {
+    layout {
+      flex-direction: column;
+    }
+    .section {
+        text-align: center;
+        padding-left: 0;
+    }
  }
 </style>

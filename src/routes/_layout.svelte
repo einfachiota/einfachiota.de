@@ -45,9 +45,5 @@
 
   <footer>
     <Footer />
-    <span>
-      <br/>
-      <center>einfachIOTA - IOTA einfach erklärt.</center>
-    </span>
   </footer>
 </div>
