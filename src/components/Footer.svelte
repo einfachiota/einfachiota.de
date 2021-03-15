@@ -25,7 +25,7 @@
    <br/>
    <a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
    <br/>
-   <a href="https://twitter.com/einfachiota" target="_blank" class="link">Discord</a>
+   <a href="https://discord.com/invite/eReFR9RzaN" target="_blank" class="link">Discord</a>
 </div>
 
 <div class="section2">
