@@ -62,13 +62,14 @@ layout {
     text-decoration: none;
 }
 .link:hover {
-    color: white;
+    color: '#729FB5';
 }
 
  .footer-title {
  font-weight: bold;
  text-transform: uppercase;
  font-size: 1.5rem;
+ color: white;
  }
 
  @media (max-width: 900px) {
