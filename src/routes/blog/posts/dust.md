@@ -1,5 +1,5 @@
 ---
-title: Was ist die "Dust-Protection?
+title: Was ist die "Dust-Protection"?
 date: "2021-03-15"
 ---
 
@@ -8,7 +8,7 @@ der sicherheitsmechanismus gegen Staub einfach erklärt!
 
 <!-- more -->
 
-Da IOTA "feeless", also gebührenlos ist und man Mikrotransaktionen senden kann also zum Beipsiel 1 IOTA, können Angreifer damit das Netzwerk msehr einfach "zuspammen". Dies bezeichnen wir als "Dust", also "Staub". Um dies zu vermeiden, erlauben wir nur Mikrotransaktionen unter 1Mi IOTA-Token an eine andere Adresse, wenn Sie bereits mit mindestens 1Mi aufgaladen wurde.
+Da IOTA "feeless", also gebührenfrei ist, und man Mikrotransaktionen senden kann also zum Beipsiel 1 IOTA, können Angreifer damit das Netzwerk sehr einfach "zuspammen". Dies bezeichnen wir als "Dust", also "Staub". Um dies zu vermeiden, erlauben wir nur Mikrotransaktionen unter 1Mi IOTA-Token an eine andere Adresse, wenn Sie bereits mit mindestens 1Mi aufgaladen wurde.
 
 ## Wie funktioniert das?
 Die Dust Protection ist fest im Kernprotokoll verankert.
