@@ -26,10 +26,12 @@
    <a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
    <br/>
    <a href="https://discord.com/invite/eReFR9RzaN" target="_blank" class="link">Discord</a>
+   <br/>
+   <a href="https://t.me/einfachIOTA" target="_blank" class="link">Telegram</a>
 </div>
 
 <div class="section2">
-    <div class="footer-title">Über uns</div>
+    <div class="footer-title">Info</div>
     <br/>
     <a href="https://einfachiota.de/impressum" class="link">Impressum</a>
     </div>
