@@ -15,7 +15,7 @@ Mit Chrysalis erlebt IOTA die wohl größte Veränderung seit dessen Gründung, 
 
 EinfachIOTA wird deshalb begleitend in den kommenden Wochen ein paar Blogartikel veröffentlichen, die einzelne Komponenten des "neuen" IOTA etwas genauer unter die Lupe nehmen, und euch damit während dieser Reise unterstüzen. 
 
-Ausserdem wollen wir dies auch zum Anlass nehmen, um unsere brandneue [einfachIOTA Webseite](https://einfachiota.de) zu präsentieren! Im Reiter "Blog" werdet ihr ab sofort regelmäßig die einzelnen Erklärungen rund um Chrysalis finden! :) 
+Ausserdem wollen wir dies auch zum Anlass nehmen, um unsere brandneue [einfachIOTA Webseite](https://einfachiota.de) zu präsentieren! Im Reiter "Blog" werdet ihr ab sofort regelmäßig neue Erklärungen rund um Chrysalis und IOTA finden! :) 
 
 
 
