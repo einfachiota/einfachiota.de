@@ -2,6 +2,8 @@
 
   .container {
     height: 100vh;
+    margin-left: -20px;
+    margin-top: 80px;
   }
 
 
@@ -13,5 +15,12 @@
 
 <div class="container">
   <h1>Über uns</h1>
-  <p>einfachIOTA - IOTA einfach erklärt!</p>
+  <br />
+  <p>EinfachIOTA ist von der Community - für die Community! Von Anfang an ist unser Ziel, IOTA für jeden 
+    einfach und verständlich zu machen, und die Community zu unterstützen wo wir nur können. 
+  </p>
+  <p>
+    Ob mit Software, einem physischen Magazin, oder unserem "Projekt der Woche", 
+    wir begleiten euch wo wir nur können.
+  </p>
   </div>
