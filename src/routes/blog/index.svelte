@@ -17,6 +17,10 @@
     font-weight: 700;
   }
 
+  .container {
+    height: 100vh;
+  }
+
   .post-item-date {
     color: #AAA;
     text-align: left;

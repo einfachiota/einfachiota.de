@@ -63,7 +63,7 @@
   <div class="home-copy">
     <h1>Hallo!</h1>
     <p>Willkommmen bei einfachIOTA!</p>
-    <p>Hier bekommst du alles zu IOTA einfach erklärt!</p>
+    <p>Hier bekommst du alles rund um IOTA einfach erklärt!</p>
   </div>
 
   <figure>
