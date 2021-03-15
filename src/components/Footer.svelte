@@ -10,19 +10,31 @@
 
 <section class="footer" id="footer">
 <layout>
-<div class="section">
-<div class="footer-title">Social</div>
-<br/>
-<a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
-<br/>
-<a href="https://twitter.com/einfachiota" target="_blank" class="link">Discord</a>
+<div class="section1">
+    <div class="footer-title">Kurzlinks</div>
+    <br/>
+    <a href="https://einfachiota.de" class="link">Home</a>
+    <br/>
+    <a href="https://einfachiota.de/about" class="link">Über uns</a>
+    <br/>
+    <a href="https://einfachiota.de/blog" class="link">Blog</a>
 </div>
-<div class="section">
-<div class="footer-title">Über uns</div>
-<br/>
-<a href="https://einfachiota.de/impressum" class="link">Impressum</a>
+
+<div class="section2">
+  <div class="footer-title">Social</div>
+   <br/>
+   <a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
+   <br/>
+   <a href="https://twitter.com/einfachiota" target="_blank" class="link">Discord</a>
 </div>
+
+<div class="section2">
+    <div class="footer-title">Über uns</div>
+    <br/>
+    <a href="https://einfachiota.de/impressum" class="link">Impressum</a>
+    </div>
 </layout>
+<br/>
 <br/>
 <br/>
       <center>einfachIOTA - IOTA einfach erklärt.</center>
@@ -35,8 +47,12 @@ layout {
     display: flex;
     flex-direction: row;
 }
-.section {
+.section1 {
     padding-left: 25vw;
+    margin-top: 45px;
+}
+.section2 {
+    padding-left: 120px;
     margin-top: 45px;
 }
 .link {
@@ -55,11 +71,15 @@ layout {
  font-size: 1.5rem;
  }
 
- @media (max-width: 800px) {
+ @media (max-width: 900px) {
     layout {
       flex-direction: column;
     }
-    .section {
+    .section1 {
+        text-align: center;
+        padding-left: 0;
+    }
+    .section2 {
         text-align: center;
         padding-left: 0;
     }
