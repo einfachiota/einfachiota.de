@@ -9,7 +9,6 @@ Eine neue mini-serie rund um Chrysalis!
 <!-- more -->
 
 
-
 Wir von einfachIOTA haben uns zur Aufgabe gemacht, IOTA für jeden einfach zu erklären. Nun.. wann wäre wohl ein besserer Zeitpunkt dafür als jetzt?
 
 Mit Chrysalis erlebt IOTA die wohl größte Veränderung seit dessen Gründung, und wir wissen, dass vieles oft noch sehr schwer verständlich, oder gar noch ungeklärt ist. Umso wichtiger ist es, dass der Wechsel ins neue Netzwerk und dessen Funktionsweise nicht unerklärt bleibt. 
