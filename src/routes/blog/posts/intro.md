@@ -8,6 +8,7 @@ Eine neue mini-serie rund um Chrysalis!
 
 <!-- more -->
 
+<img alt='Person typing on laptop' src='chrysalis.svg' style=" left: 0px; width: 100%; ">
 
 Wir von einfachIOTA haben uns zur Aufgabe gemacht, IOTA für jeden einfach zu erklären. Nun.. wann wäre wohl ein besserer Zeitpunkt dafür als jetzt?
 
