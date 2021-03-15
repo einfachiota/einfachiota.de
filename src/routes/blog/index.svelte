@@ -21,6 +21,10 @@
     height: 100vh;
   }
 
+  .blog {
+    text-decoration: underline #00B8C5;
+  }
+
   .post-item-date {
     color: #AAA;
     text-align: left;
@@ -38,7 +42,7 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Blog</h1>
+  <h1 class="blog">Blog</h1>
   {#each posts as post, index}
     {#if index}
       <hr />

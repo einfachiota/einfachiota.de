@@ -12,6 +12,10 @@
     flex: 1;
   }
 
+  .hallo {
+    text-decoration: underline #00B8C5;
+  }
+
   h1 {
     font-weight: 700;
     margin-bottom: 0.5em;
@@ -61,7 +65,7 @@
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Hallo!</h1>
+    <h1 class="hallo">Hallo!</h1>
     <p>Willkommmen bei einfachIOTA!</p>
     <p>Hier bekommst du alles rund um IOTA einfach erklärt!</p>
   </div>

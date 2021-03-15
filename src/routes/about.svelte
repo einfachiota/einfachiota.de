@@ -6,6 +6,10 @@
     margin-top: 80px;
   }
 
+  .about {
+    text-decoration: underline #00B8C5;;
+  }
+
 
 </style>
 
@@ -14,7 +18,7 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Über uns</h1>
+  <h1 class="about">Über uns</h1>
   <br />
   <p>EinfachIOTA ist von der Community - für die Community! Von Anfang an ist unser Ziel, IOTA für jeden 
     einfach und verständlich zu machen, und die Community zu unterstützen wo wir nur können. 
