@@ -1,20 +1,16 @@
 <style>
-  figure {
-    float: right;
-    margin: -3em -7em 2em 2em;
-    max-width: 400px;
+
+  .container {
+    height: 100vh;
+    margin-left: -20px;
+    margin-top: 80px;
   }
 
-  figure img {
-    border-radius: 8px;
+  .about {
+    text-decoration: underline #00B8C5;;
   }
 
-  @media (max-width: 1020px) {
-    figure {
-      float: none;
-      margin: 0 auto 2em;
-    }
-  }
+
 </style>
 
 <svelte:head>
@@ -22,6 +18,13 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Über uns</h1>
-  <p>einfachIOTA - IOTA einfach erklärt!</p>
+  <h1 class="about">Über uns</h1>
+  <br />
+  <p>EinfachIOTA ist von der Community - für die Community! Von Anfang an ist unser Ziel, IOTA für jeden 
+    einfach und verständlich zu machen, und die Community zu unterstützen wo wir nur können. 
+  </p>
+  <p>
+    Ob mit Software, einem physischen Magazin, oder unserem "Projekt der Woche", 
+    wir begleiten euch wo wir nur können.
+  </p>
   </div>
