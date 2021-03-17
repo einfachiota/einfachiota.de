@@ -37,7 +37,7 @@
 <div class="section2">
     <div class="footer-title">Info</div>
     <br/>
-    <a rel=prefetch class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
+    <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
     </div>
 </layout>
 <br/>
