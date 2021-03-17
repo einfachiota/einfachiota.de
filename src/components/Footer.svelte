@@ -110,5 +110,9 @@ layout {
         text-align: center;
         padding-left: 0;
     }
+    .section3 {
+        text-align: center;
+        padding-left: 0;
+}
  }
 </style>
