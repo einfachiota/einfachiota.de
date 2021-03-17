@@ -3,7 +3,6 @@
  export let header = "";
  export let segment;
 
-
  const  YOUTUBE="https://www.youtube.com/channel/UClEhfr5oh-bbH42XoXO4Pqw/videos", 
         TELEGRAM="https://t.me/einfachIOTA", 
         DISCORD="https://discord.com/invite/eReFR9RzaN", 
@@ -12,15 +11,16 @@
         HOME="/",
         ABOUT="about",
         BLOG="blog";
-
 </script>
+
+
 
 <section class="footer" id="footer">
 
 <layout>
 
  <div class="section1">
-   <div class="footer-title">Kurzlinks</div>
+     <div class="footer-title">Kurzlinks</div>
      <br/>
      <a href={HOME} class="link">Home</a>
      <br/>
@@ -30,7 +30,7 @@
  </div>
 
  <div class="section2"> 
-   <div class="footer-title">Social</div>
+    <div class="footer-title">Social</div>
     <br/>
     <a href={TWITTER} target="_blank" class="link">Twitter</a>
     <br/>
@@ -42,16 +42,18 @@
  </div>
 
  <div class="section3">
-   <div class="footer-title">Info</div>
+     <div class="footer-title">Info</div>
      <br/>
      <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
  </div>
 
 </layout>
+
 <br/>
 <br/>
 <br/>
-      <center>einfachIOTA - IOTA einfach erklärt.</center>
+
+<center>einfachIOTA - IOTA einfach erklärt.</center>
 
 </section>
 
