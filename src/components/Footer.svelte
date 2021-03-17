@@ -4,41 +4,49 @@
  export let segment;
 
 
- const DESCRIPTION="Beschreibung";
- const CONTACT_DETAILS="Contact";
+ const  YOUTUBE="https://www.youtube.com/channel/UClEhfr5oh-bbH42XoXO4Pqw/videos", 
+        TELEGRAM="https://t.me/einfachIOTA", 
+        DISCORD="https://discord.com/invite/eReFR9RzaN", 
+        TWITTER="https://twitter.com/einfachiota",
 
- const { HEADING="Heading", ADDRESS="address", EMAIL="email", IMPRESSUM="Impressum" } = CONTACT_DETAILS;
+        HOME="/",
+        ABOUT="about",
+        BLOG="blog";
+
 </script>
 
 <section class="footer" id="footer">
+
 <layout>
-<div class="section1">
-    <div class="footer-title">Kurzlinks</div>
-    <br/>
-    <a href="https://einfachiota.de" class="link">Home</a>
-    <br/>
-    <a href="https://einfachiota.de/about" class="link">Über uns</a>
-    <br/>
-    <a href="https://einfachiota.de/blog" class="link">Blog</a>
-</div>
 
-<div class="section2">
-  <div class="footer-title">Social</div>
-   <br/>
-   <a href="https://twitter.com/einfachiota" target="_blank" class="link">Twitter</a>
-   <br/>
-   <a href="https://discord.com/invite/eReFR9RzaN" target="_blank" class="link">Discord</a>
-   <br/>
-   <a href="https://t.me/einfachIOTA" target="_blank" class="link">Telegram</a>
-   <br/>
-   <a href="https://www.youtube.com/channel/UClEhfr5oh-bbH42XoXO4Pqw/videos" target="_blank" class="link">Youtube</a>
-</div>
+ <div class="section1">
+   <div class="footer-title">Kurzlinks</div>
+     <br/>
+     <a href={HOME} class="link">Home</a>
+     <br/>
+     <a href={ABOUT} class="link">Über uns</a>
+     <br/>
+     <a href={BLOG} class="link">Blog</a>
+ </div>
 
-<div class="section2">
-    <div class="footer-title">Info</div>
+ <div class="section2"> 
+   <div class="footer-title">Social</div>
     <br/>
-    <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
-    </div>
+    <a href={TWITTER} target="_blank" class="link">Twitter</a>
+    <br/>
+    <a href={DISCORD} target="_blank" class="link">Discord</a>
+    <br/>
+    <a href={TELEGRAM} target="_blank" class="link">Telegram</a>
+    <br/>
+    <a href={YOUTUBE} target="_blank" class="link">Youtube</a>
+ </div>
+
+ <div class="section3">
+   <div class="footer-title">Info</div>
+     <br/>
+     <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
+ </div>
+
 </layout>
 <br/>
 <br/>
@@ -58,6 +66,10 @@ layout {
     margin-top: 45px;
 }
 .section2 {
+    padding-left: 120px;
+    margin-top: 45px;
+}
+.section3 {
     padding-left: 120px;
     margin-top: 45px;
 }
