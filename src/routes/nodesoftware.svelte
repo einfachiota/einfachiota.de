@@ -16,25 +16,27 @@
       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
       border-collapse: collapse;
       width: 80%;
-      color: white;
+      color: black;
       margin-left: 10%;
     }
   
     #tblData td, #tblData th {
       border: 1px solid transparent;
-      padding: 8px;
+      padding: 15px;
+      text-align: center;
+      
     }
   
-    #tblData tr:nth-child(even){background-color: #1A373E;}
+    #tblData tr:nth-child(even){background-color: #00B8C5;}
   
-    #tblData tr:hover {background-color: #2A4A51;}
+    #tblData tr:hover {background-color: #83e1f7;}
   
     #tblData th {
       padding-top: 10px;
       padding-bottom: 10px;
       text-align: center;
-      background-color: #2A4A51;
-      color: white;
+      background-color: #00B8C5;
+      color: black;
     }
   
   </style>
@@ -63,6 +65,21 @@
                   <th>Schwierigkeitsgrad</th>
                   <th style="border-top-right-radius: 4px;">Unsere Bewertung</th>
           </tr>
+          <tr>
+                  <td>Raspihive</td>
+                  <td>Einfach</td>
+                  <td>10/10</td>
+          </tr>
+          <tr>
+                  <td>Hornet - Official</td>
+                  <td>Moderat</td>
+                  <td>7/10</td>
+          </tr>
+          <tr>
+                  <td>Hornet - Official</td>
+                  <td>Moderat</td>
+                  <td>7/10</td>
+           </tr>
         </thead>
       </table>
 </div>
