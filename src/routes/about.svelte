@@ -2,7 +2,7 @@
 
   .container {
     height: 100vh;
-    margin-left: -20px;
+    margin-left: 10vw;
     margin-top: 80px;
   }
 
