@@ -10,7 +10,8 @@
 
         HOME="/",
         ABOUT="about",
-        BLOG="blog";
+        BLOG="blog",
+        NODE="nodesoftware";
 </script>
 
 
@@ -27,6 +28,8 @@
      <a href={ABOUT} class="link">Über uns</a>
      <br/>
      <a href={BLOG} class="link">Blog</a>
+     <br/>
+     <a href={NODE} class="link">Node-Guide</a>
  </div>
 
  <div class="section2"> 
