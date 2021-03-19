@@ -17,16 +17,20 @@
 
 
 <div class="second-container">
-  <figure class="image2">
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-  </figure>
-  <div div class="home-copy">
-  <h1>Guides für Einsteiger</h1>
-  <br />
-  <p>
-  <button class="buttons">Deutsch</button>
-  <button class="buttons">Englisch</button>
-  </p>
+    <figure class="image2">
+      <img alt='Person typing on laptop' src='Guide.svg'>
+    </figure>
+
+    <div div class="home-copy">
+      <h1>Guides für Einsteiger</h1>
+      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende Guides für 
+         euch zusammengestellt.
+      </p>
+      <br />
+     
+       <a href="https://www.iota-einsteiger-guide.de" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
+       <a href="https://www.iota-beginners-guide.com" target="_blank" id="link"><button class="buttons">Englisch</button></a>
+     
 </div>
 </div>
 
@@ -72,6 +76,9 @@
      margin: 15px;
      cursor: pointer;
 
+  }
+  .buttons:hover {
+    background-color: rgb(221, 99, 99);
   }
 
   .hallo {

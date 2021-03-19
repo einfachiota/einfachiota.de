@@ -88,7 +88,7 @@ layout {
     text-decoration: none;
 }
 .link:hover {
-    color: '#729FB5';
+    color: '#00B8C5';
 }
 
  .footer-title {
