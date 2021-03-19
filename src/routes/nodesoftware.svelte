@@ -18,8 +18,12 @@
    <p>
     Wer plant eine Node aufzusetzen, der wird erst einmal erschlagen von der fülle an 
     Anleitungen die es mittlerweile schon gibt - oftmals sind diese bereits nichtmal mehr aktuell.
-    Mit diser übersicht wollen wir dir bei der suche nach einer Geeigneten Lösung etwas unter die Arme greifen. 
+    Mit dieser Übersicht wollen wir dir bei der suche nach einer Geeigneten Lösung etwas unter die Arme greifen. 
    </p>
+   <p>Solltest du dennoch Hilfe benötigen, oder Fragen haben, die einfachIOTA Community auf 
+    <a href={DISCORD} target="_blank">Discord</a> und
+    <a href={TELEGRAM} target="_blank">Telegram</a>
+      kann dir sicher weiterhelfen!</p>
    <br />
 
 
