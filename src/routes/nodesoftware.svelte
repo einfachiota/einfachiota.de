@@ -20,7 +20,7 @@
     Anleitungen die es mittlerweile schon gibt - oftmals sind diese bereits nichtmal mehr aktuell.
     Mit dieser Übersicht wollen wir dir bei der suche nach einer Geeigneten Lösung etwas unter die Arme greifen. 
    </p>
-   <p>Solltest du dennoch Hilfe benötigen, oder Fragen haben, die einfachIOTA Community auf 
+   <p class="information">Solltest du dennoch Hilfe benötigen, oder Fragen haben, die einfachIOTA Community auf 
     <a href={DISCORD} target="_blank">Discord</a> und
     <a href={TELEGRAM} target="_blank">Telegram</a>
       kann dir sicher weiterhelfen!</p>
@@ -153,6 +153,13 @@
   .trouble-section {
     width: 100%;
     margin-left: 5vw;
+  }
+  .information {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(243, 219, 151);
+    text-align: center;
   }
 
   #tblData tr:nth-child(even){background-color: rgb(191, 214, 212);}
