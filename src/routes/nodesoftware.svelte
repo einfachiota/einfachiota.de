@@ -20,7 +20,7 @@
     Anleitungen die es mittlerweile schon gibt - oftmals sind diese bereits nichtmal mehr aktuell.
     Mit dieser Übersicht wollen wir dir bei der suche nach einer Geeigneten Lösung etwas unter die Arme greifen. 
    </p>
-   <p class="information">Solltest du dennoch Hilfe benötigen, oder Fragen haben, die einfachIOTA Community auf 
+   <p class="information">&#x2139;  Solltest du dennoch Hilfe benötigen, oder Fragen haben, die einfachIOTA Community auf 
     <a href={DISCORD} target="_blank">Discord</a> und
     <a href={TELEGRAM} target="_blank">Telegram</a>
       kann dir sicher weiterhelfen!</p>
@@ -155,10 +155,10 @@
     margin-left: 5vw;
   }
   .information {
-    border: 1px solid black;
+    border: 1px solid transparent;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgb(243, 219, 151);
+    background-color: rgb(255, 237, 188);
     text-align: center;
   }
 
