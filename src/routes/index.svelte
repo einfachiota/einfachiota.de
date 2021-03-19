@@ -27,7 +27,7 @@
 
     <div div class="home-copy">
       <h1>Guides für Einsteiger</h1>
-      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende <br/>
+      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende
         Guides für euch zusammengestellt.
       </p>
       <br />
@@ -69,9 +69,8 @@
     flex: 1;
     justify-content: center;
     min-height: 100vh;
-    min-width: 100%;
-    padding: 1em 1em;
-    margin:  0 auto;
+    max-width: 1400px;
+    padding: 1em 8em;
   }
   .third-container {
     align-items: center;
@@ -88,7 +87,6 @@
     
     width: 100%;
     max-width: 400px;
-    margin-left: 18vw;
   }
   .image3 {
     
@@ -160,6 +158,7 @@
     .second-container {
       flex-direction: column;
       padding-top: 80px;
+      min-height: 800px;
     }
     .third-container {
       flex-direction: column;
