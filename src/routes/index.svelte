@@ -23,8 +23,8 @@
 
     <div div class="home-copy">
       <h1>Guides für Einsteiger</h1>
-      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende Guides für 
-         euch zusammengestellt.
+      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende <br/>
+        Guides für euch zusammengestellt.
       </p>
       <br />
      
