@@ -37,7 +37,7 @@
      
 </div>
 </div>
-
+<!----
 <div class="third-container">
   <div class="home-copy">
     <h1 class="hallo">Ich möchte eine Node!</h1>
@@ -50,6 +50,7 @@
     <img alt='Server' src='Server.svg'>
   </figure>
 </div>
+--->
 
 <style>
   .home-container {
