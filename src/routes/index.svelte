@@ -1,4 +1,8 @@
 
+<script>
+  export let segment;
+</script>
+
 <svelte:head>
   <title>einfachIOTA</title>
 </svelte:head>
@@ -17,18 +21,36 @@
 
 
 <div class="second-container">
-  <figure class="image2">
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
+    <figure class="image2">
+      <img alt='Guide' src='Guide.svg'>
+    </figure>
+
+    <div div class="home-copy">
+      <h1>Guides für Einsteiger</h1>
+      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende <br/>
+        Guides für euch zusammengestellt.
+      </p>
+      <br />
+     
+       <a href="https://www.iota-einsteiger-guide.de" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
+       <a href="https://www.iota-beginners-guide.com" target="_blank" id="link"><button class="buttons">Englisch</button></a>
+     
+</div>
+</div>
+<!----
+<div class="third-container">
+  <div class="home-copy">
+    <h1 class="hallo">Ich möchte eine Node!</h1>
+    <p>Hier ist unser Guide für Node- tutorials!</p>
+
+    <a href='nodesoftware' id="link"><button class="buttons">Übersicht</button></a>
+  </div>
+
+  <figure class="image3">
+    <img alt='Server' src='Server.svg'>
   </figure>
-  <div div class="home-copy">
-  <h1>Guides für Einsteiger</h1>
-  <br />
-  <p>
-  <button class="buttons">Deutsch</button>
-  <button class="buttons">Englisch</button>
-  </p>
 </div>
-</div>
+--->
 
 <style>
   .home-container {
@@ -52,12 +74,27 @@
     padding: 1em 1em;
     margin:  0 auto;
   }
+  .third-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin:  0 auto;
+    min-height: 100vh;
+    padding: 1em 1em;
+    max-width: 1400px;
+  }
 
   .image2 {
     
     width: 100%;
     max-width: 400px;
     margin-left: 18vw;
+  }
+  .image3 {
+    
+    width: 100%;
+    max-width: 400px;
   }
 
   .home-copy {
@@ -72,6 +109,9 @@
      margin: 15px;
      cursor: pointer;
 
+  }
+  .buttons:hover {
+    background-color: rgb(221, 99, 99);
   }
 
   .hallo {
@@ -119,6 +159,10 @@
       flex-direction: column;
     }
     .second-container {
+      flex-direction: column;
+      padding-top: 80px;
+    }
+    .third-container {
       flex-direction: column;
       padding-top: 80px;
     }
