@@ -32,7 +32,7 @@
       </p>
       <br />
      
-       <a href="https://www.iota-einsteiger-guide.de" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
+       <a href="https://iota-einsteiger-guide.de/inhaltsverzeichnis.html" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
        <a href="https://www.iota-beginners-guide.com" target="_blank" id="link"><button class="buttons">Englisch</button></a>
      
 </div>
