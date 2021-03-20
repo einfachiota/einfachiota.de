@@ -151,8 +151,8 @@
     background-color: rgb(209, 238, 235)
   }
   .trouble-section {
-    width: 100%;
-    margin-left: 5vw;
+    width: 90%;
+    margin-left: 5%;
   }
   .information {
     border: 1px solid transparent;
