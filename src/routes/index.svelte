@@ -58,7 +58,7 @@
     flex: 1;
     justify-content: center;
     margin:  0 auto;
-    min-height: 90vh;
+    min-height: 78vh;
     padding: 1em 1em;
     max-width: 1400px;
   }
@@ -100,11 +100,14 @@
 
   .buttons {
      background-color: rgb(243, 124, 124);
-     border: 1px solid black;
+     border: 1px solid transparent;
      width: 12em;
      padding: 15px;
      margin: 15px;
      cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: large;
+     border-radius: 5px;
 
   }
   .buttons:hover {
