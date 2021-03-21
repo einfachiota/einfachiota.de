@@ -19,6 +19,7 @@
 
   .container {
     height: 100vh;
+    padding: 1em 1em;
   }
 
   .blog {

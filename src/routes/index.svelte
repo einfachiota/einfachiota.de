@@ -21,20 +21,20 @@
 
 
 <div class="second-container">
+   <div class="second-container-content">
     <figure class="image2">
       <img alt='Guide' src='Guide.svg'>
     </figure>
 
     <div div class="home-copy">
       <h1>Guides für Einsteiger</h1>
-      <p>Unsere Mitglieder Schmucklos und Globoxx haben zwei umfassende
-        Guides für euch zusammengestellt.
-      </p>
+      <p>Unsere Mitglieder Schmucklos und Globoxx haben 
+      umfassende Guides für euch zusammengestellt.</p>
       <br />
      
        <a href="https://iota-einsteiger-guide.de/inhaltsverzeichnis.html" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
        <a href="https://www.iota-beginners-guide.com" target="_blank" id="link"><button class="buttons">Englisch</button></a>
-     
+     </div>
 </div>
 </div>
 <!----
@@ -59,7 +59,7 @@
     flex: 1;
     justify-content: center;
     margin:  0 auto;
-    min-height: 90vh;
+    min-height: 78vh;
     padding: 1em 1em;
     max-width: 1400px;
   }
@@ -70,8 +70,16 @@
     flex: 1;
     justify-content: center;
     min-height: 100vh;
+    max-width: 100%;
+    padding: 1em 1em;
+  }
+  .second-container-content {
     max-width: 1400px;
-    padding: 1em 8em;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
   }
   .third-container {
     align-items: center;
@@ -83,29 +91,20 @@
     padding: 1em 1em;
     max-width: 1400px;
   }
-
-  .image2 {
-    
-    width: 100%;
-    max-width: 400px;
-  }
-  .image3 {
-    
-    width: 100%;
-    max-width: 400px;
-  }
-
   .home-copy {
     flex: 1;
   }
 
   .buttons {
      background-color: rgb(243, 124, 124);
-     border: 1px solid black;
+     border: 1px solid transparent;
      width: 12em;
      padding: 15px;
      margin: 15px;
      cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: large;
+     border-radius: 5px;
 
   }
   .buttons:hover {
@@ -135,6 +134,16 @@
     width: 100%;
     max-width: 400px;
   }
+  .image2 {
+    
+    width: 100%;
+    max-width: 400px;
+  }
+  .image3 {
+    
+    width: 100%;
+    max-width: 400px;
+  }
 
   @media (max-width: 1020px) {
     p {
@@ -142,13 +151,13 @@
     }
 
     img {
-      max-width: 250px;
+    max-width: 250px;
     }
     .image2 {
-    
-    width: 100%;
     max-width: 250px;
-    margin-left: 8vw;
+  }
+    .image3 {
+    max-width: 250px;
   }
   }
 
@@ -158,19 +167,24 @@
     }
     .second-container {
       flex-direction: column;
-      padding-top: 80px;
-      min-height: 800px;
+      padding: 1em 1em;
+      min-height: 105vh;
+    }
+    
+    .image2 {
+    max-width: 180px;
+    margin-top: 50px;
+    }
+    .second-container-content {
+      flex-direction: column;
+      padding: 1em 1em;
+
     }
     .third-container {
       flex-direction: column;
-      padding-top: 80px;
     }
-    .image2 {
-    margin-left: 0vw;
-    }
-
     .buttons {
-      margin: 10px
+      margin: 5px;
     }
 
     .home-copy {
