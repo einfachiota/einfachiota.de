@@ -1,13 +1,15 @@
 <style>
 
   .container {
-    height: 100vh;
-    margin-left: 10vw;
-    margin-top: 80px;
+    height: fit-content;
+    margin-top: 40px;
+    width: 100%;
+    text-align: left;
+    padding: 1em 1em;
   }
 
   .about {
-    text-decoration: underline #00B8C5;;
+    text-decoration: underline #00B8C5;
   }
 
 
