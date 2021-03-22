@@ -1,7 +1,10 @@
 
 <script>
-  export let segment;
+  import Cookies from './_cookies.svelte'
 </script>
+
+
+<Cookies />
 
 <svelte:head>
   <title>einfachIOTA</title>
