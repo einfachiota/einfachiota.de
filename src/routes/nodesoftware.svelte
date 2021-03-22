@@ -33,9 +33,10 @@
         <thead>
           <tr class="tblhead">
                   <th role="columnheader" style="border-top-left-radius: 4px;">Lösung</th>
-                  <th role="columnheader">Schwierigkeitsgrad</th>
+                  <th role="columnheader">Schwierigkeit</th>
                   <th role="columnheader">Netzwerk</th>
                   <th role="columnheader">Aktuell / Funktion bestätigt</th>
+                  <th role="columnheader">Sprache</th>
                   <th role="columnheader" style="border-top-right-radius: 4px;">Unsere Bewertung</th>
           </tr>
         </thead>
@@ -45,6 +46,7 @@
             <td>Einfach</td>
             <td>Mainnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>9/10</td>
           </tr>
           <tr>
@@ -52,6 +54,7 @@
             <td>Moderat</td>
             <td>Mainnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>7/10</td>
           </tr>
           <tr>
@@ -59,6 +62,7 @@
             <td>Moderat</td>
             <td>Mainnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>7/10</td>
           </tr>
           <tr>
@@ -66,6 +70,7 @@
             <td>Moderat</td>
             <td>Mainnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>8/10</td>
           </tr>
           <tr>
@@ -73,6 +78,7 @@
             <td>Moderat</td>
             <td>Pollen-Testnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>7/10</td>
           </tr>
           <tr>
@@ -80,6 +86,7 @@
             <td>Schwer</td>
             <td>Pollen-Testnet</td>
             <td>Ja / 19.03.21</td>
+            <td>EN</td>
             <td>7/10</td>
           </tr>
         </tbody>
