@@ -158,7 +158,7 @@
 .cookieConsent__Button:hover {
   opacity: 0.6; }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   .cookieConsent {
     display: block; }
   .cookieConsent__Right {
@@ -166,4 +166,6 @@
   .cookieConsent__Button {
     margin: 0 10px 10px 0; }
   .cookieConsent__Button--Close {
-    margin: 40px 0 0; } }
+    margin: 40px 0 0; } 
+    .cookieConsent__Right {
+      display: block;  }}
