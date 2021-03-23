@@ -29,4 +29,11 @@
     Ob mit Software, einem physischen Magazin, oder unserem "Projekt der Woche", 
     wir begleiten euch wo wir nur können.
   </p>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
   </div>
