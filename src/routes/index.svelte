@@ -115,7 +115,7 @@
   }
 
   .buttons {
-     background-color: rgb(243, 124, 124);
+     background-color: #fd6378;
      border: 1px solid transparent;
      width: 12em;
      padding: 15px;
@@ -127,8 +127,7 @@
 
   }
   .buttons:hover {
-    background-color: rgb(221, 99, 99);
-  }
+    background-color: #e75468  }
 
   .hallo {
     text-decoration: underline #00B8C5;
