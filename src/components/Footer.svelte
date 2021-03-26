@@ -48,6 +48,10 @@
      <div class="footer-title">Info</div>
      <br/>
      <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
+     <br />
+     <br />
+     <div class="email-title">Email:</div>
+     <a href="mailto:info@einfachiota.de" id="link">info@einfachiota.de</a>
  </div>
 
 </layout>
@@ -98,6 +102,12 @@ layout {
  font-weight: bold;
  text-transform: uppercase;
  font-size: 1.5rem;
+ color: white;
+ }
+ .email-title {
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 1rem;
  color: white;
  }
 
