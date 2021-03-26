@@ -18,7 +18,7 @@
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
+    <img alt='Person typing on laptop' src='Teacher.svg'>
   </figure>
 </div>
 
