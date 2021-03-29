@@ -29,7 +29,7 @@
      <br/>
      <a href={BLOG} class="link">Blog</a>
      <br/>
-    <!-- <a href={NODE} class="link">Node-Guide</a>-->
+    <a href={NODE} class="link">Node-Guide</a>
  </div>
 
  <div class="section2"> 
