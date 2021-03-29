@@ -51,7 +51,8 @@
         throw new Error('You must set gdpr cookie name')
       }
       const cookie = cookies.get(cookieName)
-      if (cookie && chosenMatchesChoice(cookie)) {
+      // if (cookie && chosenMatchesChoice(cookie)) {
+      if (cookie && cookie.choices) {
         execute(cookie.choices)
       } else {
         removeCookie()
