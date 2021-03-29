@@ -1,7 +1,10 @@
 
 <script>
-  export let segment;
+  import Cookies from './_cookies.svelte'
 </script>
+
+
+<Cookies />
 
 <svelte:head>
   <title>einfachIOTA</title>
@@ -15,7 +18,7 @@
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
+    <img alt='Person typing on laptop' src='Teacher.svg'>
   </figure>
 </div>
 
@@ -51,6 +54,23 @@
   </figure>
 </div>
 --->
+
+<div class="second-container">
+  <div class="second-container-content">
+   <figure class="image2">
+     <img alt='Stammtisch' src='Stammtisch.svg'>
+   </figure>
+
+   <div div class="home-copy">
+     <h1>Stammtisch</h1>
+     <p>Wir veranstalten Wöchentlich einen "Voice-Stammtisch" auf 
+        unserem Discord Server, mit weit über 100 Teilnehmern.</p>
+     <br />
+    
+      <a href="https://discord.com/invite/eReFR9RzaN" target="_blank" id="link"><button class="buttons">zum Server</button></a>
+    </div>
+</div>
+</div>
 
 <style>
   .home-container {
@@ -96,7 +116,7 @@
   }
 
   .buttons {
-     background-color: rgb(243, 124, 124);
+     background-color: #fd6378;
      border: 1px solid transparent;
      width: 12em;
      padding: 15px;
@@ -108,8 +128,7 @@
 
   }
   .buttons:hover {
-    background-color: rgb(221, 99, 99);
-  }
+    background-color: #e75468  }
 
   .hallo {
     text-decoration: underline #00B8C5;
