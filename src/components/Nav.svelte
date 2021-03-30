@@ -1,4 +1,6 @@
 <script>
+  import BurgerMenu from 'svelte-burger-menu'
+
   export let segment;
 </script>
 
@@ -11,6 +13,19 @@
     font-weight: 700;
     justify-content: flex-end;
     text-transform: uppercase;
+  }
+  .burger {
+    visibility: hidden;
+    
+  }
+  @media only screen and (max-width: 700px) {
+  nav {
+    visibility: hidden;
+  }
+  .burger {
+    visibility: visible; 
+    z-index: 1000;
+  }
   }
 
   a {
@@ -50,6 +65,15 @@
 
 <nav>
   <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+  <a class='{segment === "pdw" ? "selected" : ""}' href='pdw'>Projekt der Woche</a>
   <a class='{segment === "about" ? "selected" : ""}' href='about'>über uns</a>
   <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
 </nav>
+<div class="burger">
+<BurgerMenu padding={'50px'} width={'100%'} menuColor={'#fff'} backgroundColor={'#00b7c5'}>
+  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+  <a class='{segment === "pdw" ? "selected" : ""}' href='pdw'>Projekt der Woche</a>
+  <a class='{segment === "about" ? "selected" : ""}' href='about'>über uns</a>
+  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
+</BurgerMenu>
+</div>
