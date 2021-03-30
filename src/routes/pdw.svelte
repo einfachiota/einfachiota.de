@@ -41,8 +41,8 @@
       <br />
       Wir von einfachIOTA beschäftigen uns mit der Erstellung von deutschsprachigem Content rund um IOTA. Unser Ziel ist es, Interessierten Informationen über IOTA möglichst           einfach und verständlich näher zu bringen und so unseren Teil zum IOTA Ecosystem beizutragen. Die von uns erstellten Inhalte veröffentlichen wir im Blog unserer Homepage.       Eine Übersicht über unsere laufenden Projekte findet ihr auf unserer Startseite. 
     </p>
-    <a href="https://docs.google.com/document/d/17EKslI2g9swfqJhvkX8xacOs8y5PLya3g_iKnDn_xUw/edit" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
-    <a href="https://docs.google.com/document/d/1jV29k9baofI8AR0sOH5TeNBfRjgI8c8X3khhXSbIPhs/edit" target="_blank" id="link"><button class="buttons">Englisch</button></a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJPzIeCU3ZbVLbUJGf65enrMng8odei6QgR_BXyNaAoIhzVQ/viewform" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
+    
     
     <br />
     <br />
