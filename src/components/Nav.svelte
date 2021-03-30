@@ -1,5 +1,5 @@
 <script>
-  import BurgerMenu from 'svelte-burger-menu'
+  import BurgerMenu from 'svelte-burger-menu/src';
 
   export let segment;
 </script>
@@ -69,11 +69,12 @@
   <a class='{segment === "about" ? "selected" : ""}' href='about'>über uns</a>
   <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
 </nav>
+
 <div class="burger">
 <BurgerMenu padding={'50px'} width={'100%'} menuColor={'#fff'} backgroundColor={'#00b7c5'}>
-  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+  <a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a>
   <a class='{segment === "pdw" ? "selected" : ""}' href='pdw'>Projekt der Woche</a>
-  <a class='{segment === "about" ? "selected" : ""}' href='about'>über uns</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
+  <a class='{segment === "about" ? "selected" : ""}' href='about'>Über uns</a>
+  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Blog</a>
 </BurgerMenu>
 </div>
