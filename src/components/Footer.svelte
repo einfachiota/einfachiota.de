@@ -11,7 +11,11 @@
         HOME="/",
         ABOUT="about",
         BLOG="blog",
-        NODE="nodesoftware";
+        NODE="nodesoftware",
+
+        RASPIHIVE="https://raspihive.org",
+        TANGLEKIT="https://tanglekit.de",
+        TANGLEBAY="https://tanglebay.com";
 </script>
 
 
@@ -54,6 +58,16 @@
      <a href="mailto:info@einfachiota.de" id="link">info@einfachiota.de</a>
  </div>
 
+ <div class="section4">
+    <div class="footer-title">Friends</div>
+    <br/>
+    <a href={RASPIHIVE} target="_blank" class="link">Raspihive</a>
+    <br/>
+    <a href={TANGLEKIT} target="_blank" class="link">Tanglekit</a>
+    <br/>
+    <a href={TANGLEBAY} target="_blank" class="link">Tangle Bay</a>
+</div>
+
 </layout>
 
 <br/>
@@ -71,7 +85,7 @@ layout {
     flex-direction: row;
 }
 .section1 {
-    padding-left: 25vw;
+    padding-left: 16vw;
     margin-top: 45px;
 }
 .section2 {
@@ -79,6 +93,10 @@ layout {
     margin-top: 45px;
 }
 .section3 {
+    padding-left: 120px;
+    margin-top: 45px;
+}
+.section4 {
     padding-left: 120px;
     margin-top: 45px;
 }
@@ -110,6 +128,12 @@ layout {
  font-size: 1rem;
  color: white;
  }
+ @media (max-width: 1100px) {
+    .section1 {
+        padding-left: 4vw;
+    }
+
+ }
 
  @media (max-width: 900px) {
     layout {
@@ -126,6 +150,10 @@ layout {
     .section3 {
         text-align: center;
         padding-left: 0;
-}
+    }
+    .section4 {
+        text-align: center;
+        padding-left: 0;
+    }
  }
 </style>
