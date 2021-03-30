@@ -20,7 +20,7 @@
     <p>66424 Homburg</p>
 
     <h3>Kontakt</h3>
-    <p>E-Mail: support@einfachiota.de</p>
+    <p>E-Mail: huhn.dev@gmail.com</p>
     <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
 
     <p>Sebastian Heußer</p>
