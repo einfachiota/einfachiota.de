@@ -15,7 +15,8 @@
 
         RASPIHIVE="https://raspihive.org",
         TANGLEKIT="https://tanglekit.de",
-        TANGLEBAY="https://tanglebay.com";
+        TANGLEBAY="https://tanglebay.com",
+        PAGI="https://pagi.io";
 </script>
 
 
@@ -66,6 +67,8 @@
     <a href={TANGLEKIT} target="_blank" class="link">Tanglekit</a>
     <br/>
     <a href={TANGLEBAY} target="_blank" class="link">Tangle Bay</a>
+    <br/>
+    <a href={PAGI} target="_blank" class="link">Pagi</a>
 </div>
 
 </layout>
