@@ -177,8 +177,7 @@
                     <th role="columnheader">Schwierigkeit</th>
                     <th role="columnheader">Netzwerk</th>
                     <th role="columnheader">Aktuell / Funktion bestätigt</th>
-                    <th role="columnheader">Sprache</th>
-                    <th role="columnheader" style="border-top-right-radius: 4px;">Unsere Bewertung</th>
+                    <th role="columnheader" style="border-top-right-radius: 4px;">Sprache</th>
             </tr>
           </thead>
 
@@ -189,42 +188,26 @@
               <td>Mainnet</td>
               <td>Ja / 19.03.21</td>
               <td>EN</td>
-              <td>9/10</td>
             </tr>
-            <a class="content">
-              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </a>
+            <tr class="content">
+              <td>test</td>
+            </tr>
             <tr type="button" class="collapsible">
               <td>Hornet - Official</td>
               <td>Moderat</td>
               <td>Mainnet</td>
               <td>Ja / 19.03.21</td>
               <td>EN</td>
-              <td>7/10</td>
             </tr>
-            <a class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </a>
+            <tr class="content">
+              test
+            </tr>
           </tbody>
 
         </table>
         <br />
         <br />
       </div>
-
-
-  <button type="button" class="collapsible">Open Section 1</button>
-  <a class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </a>
-  <button type="button" class="collapsible">Open Section 2</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-  <button type="button" class="collapsible">Open Section 3</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
   
 
   <div class="trouble-section">
