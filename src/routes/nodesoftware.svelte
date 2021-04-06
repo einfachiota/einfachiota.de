@@ -1,10 +1,8 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
   .collapsible {
     cursor: pointer;
     padding: 15px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -12,13 +10,12 @@
     overflow: hidden !important;
   }
   
-  .content {
+  #content {
     border: 1px solid transparent;
     display: none;
     overflow: hidden !important;
     background-color: #f1f1f1;
     padding: 15px;
-    
   }
 
   .container {
@@ -133,7 +130,6 @@
   td:nth-of-type(2):before { content: "Schwierigkeitsgrad:"; }
   td:nth-of-type(3):before { content: "Aktuell?"; }
   td:nth-of-type(4):before { content: "Funktion bestätigt:"; }
-  td:nth-of-type(5):before { content: "Unsere Bewertung:"; }
 }
 
   </style>
@@ -189,22 +185,13 @@
               <td>Ja / 19.03.21</td>
               <td>EN</td>
             </tr>
-            <tr class="content">
-              <td>test</td>
-            </tr>
-            <tr type="button" class="collapsible">
-              <td>Hornet - Official</td>
-              <td>Moderat</td>
-              <td>Mainnet</td>
-              <td>Ja / 19.03.21</td>
-              <td>EN</td>
-            </tr>
-            <tr class="content">
+            <tr id="content">
               test
             </tr>
           </tbody>
 
         </table>
+        
         <br />
         <br />
       </div>

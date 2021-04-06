@@ -16,7 +16,8 @@
         RASPIHIVE="https://raspihive.org",
         TANGLEKIT="https://tanglekit.de",
         TANGLEBAY="https://tanglebay.com",
-        PAGI="https://pagi.io";
+        PAGI="https://pagi.io",
+        IOTA="https://iota.org";
 </script>
 
 
@@ -69,6 +70,8 @@
     <a href={TANGLEBAY} target="_blank" class="link">Tangle Bay</a>
     <br/>
     <a href={PAGI} target="_blank" class="link">Pagi</a>
+    <br/>
+    <a href={IOTA} target="_blank" class="link">IOTA</a>
 </div>
 
 </layout>
