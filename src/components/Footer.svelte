@@ -56,8 +56,10 @@
      <a class='{segment === "impressum" ? "selected" : ""}' href='impressum' id="link">Impressum</a>
      <br />
      <br />
+     <!--
      <div class="email-title">Email:</div>
      <a href="mailto:info@einfachiota.de" id="link">info@einfachiota.de</a>
+     -->
  </div>
 
  <div class="section4">
@@ -71,7 +73,7 @@
     <br/>
     <a href={PAGI} target="_blank" class="link">Pagi</a>
     <br/>
-    <a href={IOTA} target="_blank" class="link">IOTA</a>
+    <a href={IOTA} target="_blank" class="link">iota.org</a>
 </div>
 
 </layout>

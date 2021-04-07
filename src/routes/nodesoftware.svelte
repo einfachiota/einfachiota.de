@@ -121,6 +121,7 @@
   h1 {
     margin-left: -10px
   }
+
   /*
   Label the data
   You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
@@ -171,8 +172,8 @@
                     <th role="columnheader" style="border-top-left-radius: 4px;">Lösung</th>
                     <th role="columnheader">Schwierigkeit</th>
                     <th role="columnheader">Netzwerk</th>
-                    <th role="columnheader">Aktuell / Funktion bestätigt</th>
-                    <th role="columnheader" style="border-top-right-radius: 4px;">Sprache</th>
+                    <th role="columnheader">Sprache</th>
+                    <th role="columnheader" style="border-top-right-radius: 4px;">Link</th>
             </tr>
           </thead>
 
@@ -180,23 +181,27 @@
             <tr type="button" class="collapsible">
               <td>Raspihive</td>
               <td>Einfach</td>
-              <td>Mainnet</td>
-              <td>Ja / 19.03.21</td>
+              <td>Chrysalis (IOTA 1.5)</td>
               <td>EN</td>
+              <td><a href="https://docs.raspihive.org" target="_blank">Link</a></td>
             </tr>
-            <tr class="content">
-              <td colspan="5">test</td>
-            </tr>
+         
             <tr type="button" class="collapsible">
               <td>Hornet</td>
-              <td>Einfach</td>
-              <td>Mainnet</td>
-              <td>Ja / 19.03.21</td>
+              <td>Mittel</td>
+              <td>Chrysalis (IOTA 1.5)</td>
               <td>EN</td>
+              <td><a href="https://hornet.docs.iota.org/tutorials/1.5/index.html" target="_blank">Link</a></td>
             </tr>
-            <tr class="content">
-              <td colspan="5">testcontent</td>
+            
+            <tr type="button" class="collapsible">
+              <td>Bee</td>
+              <td>Mittel</td>
+              <td>Chrysalis (IOTA 1.5)</td>
+              <td>EN</td>
+              <td><a href="http://bee.docs.iota.org/" target="_blank">Link</a></td>
             </tr>
+         
           </tbody>
 
         </table>
@@ -234,7 +239,7 @@
 
 
   <script>
-    
+  /*  
   var coll = document.getElementsByClassName("collapsible");
   var i;
   
@@ -248,7 +253,7 @@
         content.style.display = "table-row";
       }
     });
-  }
+  }*/
   </script>
   
 </body>

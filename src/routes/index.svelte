@@ -44,7 +44,7 @@
 <div class="third-container">
   <div class="home-copy">
     <h1 class="hallo">Ich möchte eine Node!</h1>
-    <p>Hier ist unser Guide für Node- tutorials!</p>
+    <p>Hier ist eine Tutorial-Sammlung wenn Du dir eine Node aufsetzen wilst!</p>
 
     <a href='nodesoftware' id="link"><button class="buttons">Übersicht</button></a>
   </div>
@@ -116,7 +116,7 @@
   }
 
   .buttons {
-     background-color: #fd6378;
+     background-color: var(--buttons);
      border: 1px solid transparent;
      width: 12em;
      padding: 15px;
@@ -128,10 +128,10 @@
 
   }
   .buttons:hover {
-    background-color: #e75468  }
+    background-color: var(--buttons-secondary) }
 
   .hallo {
-    text-decoration: underline #00B8C5;
+    text-decoration: underline var(--primary);
   }
 
   h1 {
