@@ -9,8 +9,7 @@
     font-size: 15px;
     overflow: hidden !important;
   }
-  
-  #content {
+  .content {
     border: 1px solid transparent;
     display: none;
     overflow: hidden !important;
@@ -50,7 +49,7 @@
     color: black;
   }
   .table-section {
-    background-color: rgb(209, 238, 235)
+    background-color: rgb(209, 238, 235);
   }
   .trouble-section {
     width: 90%;
@@ -185,8 +184,18 @@
               <td>Ja / 19.03.21</td>
               <td>EN</td>
             </tr>
-            <tr id="content">
-              test
+            <tr class="content">
+              <td colspan="5">test</td>
+            </tr>
+            <tr type="button" class="collapsible">
+              <td>Hornet</td>
+              <td>Einfach</td>
+              <td>Mainnet</td>
+              <td>Ja / 19.03.21</td>
+              <td>EN</td>
+            </tr>
+            <tr class="content">
+              <td colspan="5">testcontent</td>
             </tr>
           </tbody>
 
@@ -233,10 +242,10 @@
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
-      if (content.style.display === "block") {
+      if (content.style.display === "table-row") {
         content.style.display = "none";
       } else {
-        content.style.display = "block";
+        content.style.display = "table-row";
       }
     });
   }
