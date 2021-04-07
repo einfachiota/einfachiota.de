@@ -37,9 +37,8 @@
   <div class="container">
     <h1 class="about">Projekt der Woche</h1>
     <br />
-    <p>EinfachIOTA ist von der Community - für die Community! 
-      <br />
-      Wir von einfachIOTA beschäftigen uns mit der Erstellung von deutschsprachigem Content rund um IOTA. Unser Ziel ist es, Interessierten Informationen über IOTA möglichst           einfach und verständlich näher zu bringen und so unseren Teil zum IOTA Ecosystem beizutragen. Die von uns erstellten Inhalte veröffentlichen wir im Blog unserer Homepage.       Eine Übersicht über unsere laufenden Projekte findet ihr auf unserer Startseite. 
+    <p>
+      Im Projekt der Woche stellen wir euch spannende Projekte aus dem IOTA Ökosystem vor! Ausgeschmückt mit einem Interview erfährt ihr alles wichtige zu dem Projekt, wer dahinter steckt und was deren Ziele ist. Mit dieser Artikelreihe möchten wir den "Machern" aus dem Ecosystem eine Möglichkeit bieten, ihr Projekt der deutschsprachigen Community vorzustellen. 
     </p>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJPzIeCU3ZbVLbUJGf65enrMng8odei6QgR_BXyNaAoIhzVQ/viewform" target="_blank" id="link"><button class="buttons">Deutsch</button></a>
     
