@@ -11,6 +11,11 @@
     min-height: 100%;
     min-height: 100vh;
   }
+  :global(:root){
+   --primary: #00B8C5;
+   --buttons: #fd6378;
+   --buttons-secondary: #e75468;
+}
 
   main {
     flex: 1;
