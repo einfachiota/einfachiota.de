@@ -38,6 +38,11 @@
     min-width: 100px;
     width: 30%;
   }
+  @media (max-width: 800px) {
+    .content {
+    padding: 1em;
+  }
+  }
 </style>
 
 <svelte:head>
@@ -88,9 +93,11 @@
   <hr />
 </header>
 <div class="container">
-  <article class="content">
+  <article class="content" >
     {@html post.html}
   </article>
   <hr />
   <Bio />
+  <br />
+  <br />
 </div>
