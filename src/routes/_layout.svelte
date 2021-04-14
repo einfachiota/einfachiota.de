@@ -2,8 +2,10 @@
   import Header from '../components/Header.svelte';
   import Footer from '../components/Footer.svelte';
   export let segment;
+  import Cookies from './_cookies.svelte'
 </script>
 
+<Cookies />
 <style>
   .layout {
     display: flex;

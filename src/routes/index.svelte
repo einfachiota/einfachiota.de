@@ -1,11 +1,4 @@
 
-<script>
-  import Cookies from './_cookies.svelte'
-</script>
-
-
-<Cookies />
-
 <svelte:head>
   <title>einfachIOTA</title>
 </svelte:head>
