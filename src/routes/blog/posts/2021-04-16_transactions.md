@@ -1,5 +1,12 @@
-# Was sind "Atomic Transactions"?
+---
+title: Was sind "Atomic Transactions"?
+date: "2021-04-16"
+---
 
+Atomic Transactions einfach erklärt!
+
+
+<!-- more -->
 IOTA 1.0 verwendete das Konzept der Bundles zur Erstellung von Transfers. Bundles sind eine Reihe von Transaktionen, die über ihre Stamm-Referenz (Trunk) miteinander verbunden sind. Diese Transaktionen haben ein festes Layout und eine feste Größe unabhängig von ihrem "Inhalt". Eine Signatur mit Security Level 1 würde zwar auch in nur eine Transaktion passen, aber per default werden Security Level 2 Signaturen verwendet. Da die Level 2 Signatur von Wert-Transaktionen aber nicht in eine einzelne Transaktion passt, müssen mindestens 3 Transaktionen verwendet werden, um eine einfache Übertragung zu erstellen: 2 Transaktionen für die Eingabe + ihre Signatur und eine Transaktion (ohne Signatur). 
 Mit einem weiteren Nachteil von Bundles haben vor allem die Entwickler zu kämpfen, denn es ist viel komplizierter, alle Transaktionen von einem Bundle zu bekommen und diese richtig zu ordnen, anstatt nur eine einzelne Message zu verarbeiten.
 
