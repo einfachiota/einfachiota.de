@@ -1,6 +1,6 @@
 ---
 title: Was sind "Atomic Transactions"?
-date: "2021-04-16"
+date: "2021-04-18"
 ---
 
 Atomic Transactions einfach erklärt!
@@ -17,7 +17,7 @@ Mit einem weiteren Nachteil von Bundles haben vor allem die Entwickler zu kämpf
 
 **Weniger Signaturüberprüfungen:** Nach dem Coordicide muss jede Transaktion die Node-ID und die Signatur der Node enthalten, welche die Transaktion ausgestellt hat. Das bedeutet, dass für eine einfache Übertragung die Signaturen von mindestens 3 Transaktionen überprüft werden müssen. Die Signaturüberprüfung ist der aufwendigste Teil der Transaktionsverarbeitung, dies bedeutet, dass die Einführung von Node-IDs die Leistung der Nodes um mindestens 300% reduzieren würde, wenn der ursprüngliche Bundle-Ansatz beibehalten wird (noch mehr bei größeren Bundles). Unter dem Strich werden die Nodes Hunderte, vielleicht sogar Tausende von Transaktionen weniger verarbeiten können, als dies bei Atomic-Transactions (nicht in Bundles aufgeteilt) der Fall wäre.
 
-**Besserer Spam-Schutz und Überlastungskontrolle:** Die Größe des Bundle ist erst bekannt, wenn die letzte Transaktion eingetroffen ist und geprüft werden kann, ob es sich um ein valides Bundle handelt. Dadurch könnte es passieren, dass eine bestimmte Anzahl von Transaktionen akzeptiert und weitergeleitet wird, um dann später festzustellen, dass die ausgebende Node seine Quote (Ratensteuerung) überschritten hat, und anschließend alle weiteren Transaktionen nicht mehr berücksichtigt. Das bedeutet, dass derzeit Transaktionen geroutet und verarbeitet wurden, die von Anfang an hätten gefiltert werden müssen, wenn bekannt gewesen wäre, dass der ausgebende Node versucht, einen zu großen Transfer zu senden. Dies könnte sogar einen Angriffsvektor eröffnen, bei dem ein Node verschiedene Bundles an verschiedene Personen ausgibt, die alle anfangen, die Transaktionen des Bundles zu verarbeiten und sie dann zu verschiedenen Zeiten wieder fallen lassen, wodurch die Last im Netzwerk unnötig erhöht wird.
+**Besserer Spam-Schutz und Überlastungskontrolle:** Die Größe des Bundle ist erst bekannt, wenn die letzte Transaktion eingetroffen ist und geprüft werden kann, ob es sich um ein valides Bundle handelt. Dadurch könnte es passieren, dass eine bestimmte Anzahl von Transaktionen akzeptiert und weitergeleitet wird, um dann später festzustellen, dass die ausgebende Node seine Quote (Ratensteuerung) überschritten hat, und anschließend alle weiteren Transaktionen nicht mehr berücksichtigt. Das bedeutet, dass derzeit Transaktionen geroutet und verarbeitet wurden, die von Anfang an hätten gefiltert werden müssen, wenn bekannt gewesen wäre, dass der ausgebende Node versucht, einen zu großen Transfer zu senden. Dies könnte sogar einen Angriffsvektor eröffnen, bei dem ein Node verschiedene Bundles an verschiedene Nodes ausgibt, die alle anfangen, die Transaktionen des Bundles zu verarbeiten und sie dann zu verschiedenen Zeiten wieder fallen zu lassen, wodurch die Last im Netzwerk unnötig erhöht wird.
 
 **Kürzere Merkle-Proofs (für Sharding):** Die Merkle-Proofs für Inter-Shard-Transaktionen werden viel kürzer (mindestens 300%), wenn nicht alle Transaktionen in einem Bundle durchlaufen werden müssen, um zum nächsten Transfer zu gelangen. Dadurch werden die Inter-Shard-Transaktionen viel schneller und leichtgewichtiger.
 
