@@ -18,4 +18,4 @@ jobs:
           publish_dir: __sapper__/export
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: www.einfachIOTA.de
+          cname: einfachIOTA.de
