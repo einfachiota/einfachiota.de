@@ -13,7 +13,7 @@
         BLOG="blog",
         NODE="nodesoftware",
 
-        RASPIHIVE="https://raspihive.org",
+        RASPIHIVE="https://raspihive.com",
         TANGLEKIT="https://tanglekit.de",
         TANGLEBAY="https://tanglebay.com",
         PAGI="https://pagi.io",
